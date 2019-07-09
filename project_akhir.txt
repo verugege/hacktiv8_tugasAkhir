@@ -1,0 +1,7 @@
+Request :
+- Minimal 3 page
+- terdapat fitur2 seperti form, button, list data(array), animation, navigation, header, footer, content, 
+- boleh data dari api
+- boleh pakai qjuery
+- boleh css framework seperti bootstrap, bulma
+- logic menggunakan javascript

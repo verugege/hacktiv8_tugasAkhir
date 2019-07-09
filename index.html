@@ -1,25 +1,285 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Animasi</title>
-    <link rel="stylesheet" type="text/css" href="animate.css">
-    
-<style>
+<html lang="en">
 
-</style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Akhir Hacktiv8</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">  
+    <link href="style.css" rel="stylesheet">
+    <link href="animate.css" rel="stylesheet">
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Barriecito|Literata|Rubik+Mono+One|Russo+One&display=swap" rel="stylesheet"> 
+  <style type="text/css">
+    .gambar img{
+        border: 1px solid #baeea6;
+        width : 450px;
+        height: 450px;
+        border-radius: 50px;
+    }
+    .gambarSatu img{
+        border: 1px solid #baeea6;
+        width : 75px;
+        height: 75px;
+        border-radius: 50%;
+        display: block; 
+        margin: 0 auto; 
+        text-align: center;
+    }
+    .cover h1 {
+        text-align: left;        
+        background-image: linear-gradient(120deg, #c2d1fb 30%, #baeea6 100%);
+        font-size: 3.5rem;
+        padding: 1.5rem 2.5rem;
+        color: black;
+        font-family: 'Barriecito', cursive;
+        }
+    .jumbotron{
+        background: url("img/cover.png") no-repeat center center; 
+        background-size: cover;
+        height: 100%;
+        }
+    .hurufAbout{
+          font-family: 'Literata', serif;
+        }
+    .hurufKaki{
+          font-family: 'Candal', sans-serif;
+        }
+        
+        
+  </style>
+
+  
 
 </head>
+
 <body>
+    <div class="cover animated lightSpeedIn delay-1s"><h1><img style=" float :left; align-self: auto; width: 50px;" src="img/baby.png" alt="baby">DERU's PORTOFOLIO</h1></div>
+    <div class="container animated fadeInLeft delay-1s" style="height: 500px;">
+        <div class="jumbotron">    
+      </div>
 
-<h1 class="animated fadeIn delay-1s">Hacktiv8</h1>
-<br>
-<h1 class="animated slideInLeft delay-1s">Hacktiv8</h1>
-<br>
-<h1 class="animated zoomIn delay-1s">Hacktiv8</h1>
-<br>
-<h1 class="animated jackInTheBox delay-1s">Hacktiv8</h1>
+    <div class="row gambarSatu">
+      <div class="col-md-3"><img src="img/hamil.png" alt="hamil"></div>
+      <div class="col-md-3"><img src="img/lahir.png" alt="lahir"></div>
+      <div class="col-md-3"><img src="img/dirawat.png" alt="dirawat"></div>
+      <div class="col-md-3"><img src="img/besar.png" alt="besar"></div>
+    </div>
 
-<div></div>
+<!-- About -->
+<section class="page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase" style="font-family: 'Russo One', sans-serif;">About</h2>
+          <h3 class="section-subheading text-muted" style="font-family: 'Rubik Mono One', sans-serif;">Des 2016 - Juli 2019</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about1.png" alt="">
+              </div>
+              <div class="timeline-panel hurufAbout">
+                <div class="timeline-heading">
+                  <h4>07 Des 2016</h4>
+                  <h4 class="subheading">Si Bayi Laki Laki Telah Lahir</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Melalui persalinan normal pukul 04.00 wib bayi laki laki itu lahir di RS Hermina Paster Bandung</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about2.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>27 Des 2017</h4>
+                  <h4 class="subheading">Akikah</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Akikah adalah pengurbanan hewan dalam syariat Islam, sebagai bentuk rasa syukur umat Islam terhadap Allah SWT. mengenai bayi yang dilahirkan</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about3.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>23 Januari 2017</h4>
+                  <h4 class="subheading">Satu Bulan yang penuh adaptasi</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Bagi bayi mau pun Orang Tua yang "Baru" menjabat, Satu bulan ini penuh dengan begadang</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about4.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>04 Mei 2017</h4>
+                  <h4 class="subheading">Cucu Kesayangan Kakek dan Nenek</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Karena lebih sering berinteraksi dengan Kakek dan Nenek, kadang kadang sang ayah merasa teracukah oleh putranya. Jadi ingin berhenti kerja tapi uang selalu ada</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about5.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>7 Oktober 2017</h4>
+                  <h4 class="subheading">Merangkak kesana kemari</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Gendut, putih, merangkak dan cepat, kalau disertikan seperti hewan apa ya?? eemmmmh, Badak putih</p>
+                </div>
+              </div>
+            </li>            
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about6.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>07 Desember 2017</h4>
+                  <h4 class="subheading">Satu Tahun Umurku</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Selamat Ulang tahun yang pertama, terus sibuk buka kado. Alhamdulillah</p>
+                </div>
+              </div>
+            </li>       
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about7.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>30 Januari 2018</h4>
+                  <h4 class="subheading">BERDIKARI</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Tiga prinsip berdikari. Yakni, berdaulat dalam bidang politik, berdikari dalam bidang ekonomi dan berkepribadian dalam kebudayaan. Ketiga-tiganya prinsip berdikari ini, kata Bung Karno, tidak dapat dipisahkan dan dipreteli satu sama lain.</p>
+                </div>
+              </div>
+            </li>   
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about8.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>04 Mei 2018</h4>
+                  <h4 class="subheading">Budi Main bola lagi Yuk</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Budi tolong jangan berhenti bermain bola</p>
+                </div>
+              </div>
+            </li>        
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about9.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>17 Agustus 2018</h4>
+                  <h4 class="subheading">MERDEKA</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">“Seribu orangtua hanya dapat bermimpi. Satu orang pemuda dapat mengubah dunia. MERDEKA!”</p>
+                </div>
+              </div>
+            </li>             
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about10.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>07 Desember 2018</h4>
+                  <h4 class="subheading">Ulang Tahun Ke-2</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Dua Tahun menuju batas dan melampauinya</p>
+                </div>
+              </div>
+            </li>        
+            <li>                        
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>To
+                  <br>Be
+                  <br>Continue</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Team -->
+<section class="bg-light page-section" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Daftar KK Baru</h2>
+        <h3 class="section-subheading text-muted">Curhat dikit, ngurus KK mesti buat surat pindah domisili dulu euy</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team1.png" alt="">
+          <h4>Verruu</h4>
+          <p class="text-muted">Abi</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team2.png" alt="">
+          <h4>Deru</h4>
+          <p class="text-muted">Bocil</p>          
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="img/team3.png" alt="">
+          <h4>Echi</h4>
+          <p class="text-muted">Ummi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="row gambarSatu">
+  <div class="col-md-6"><a href="gallery.html"><img src="icon/icons8-photo-gallery-50.png" alt="goto gallery"></a></div>
+  <div class="col-md-6"><a href="video2.html"><img src="icon/icons8-clapperboard-50.png" alt="goto videos"></a></div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted hurufKaki">copyleft-deru2019</p>
+  </div>
+</footer>
 
 </body>
+
 </html>
